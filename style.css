@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/roboto/OpenSans-Regular.ttf);
+}
+
+.navbar {
+	background:  linear-gradient(90deg, #bf963f, #aa771c);
+	border-bottom:1px #aa771c solid;
+
+}
+
+body {
+	height: 100vh;
+	font-family: Roboto;
+	background-color: black;
+	color: white;
+}
+
+footer {
+	height: 40px;
+	font-size: 12px;
+	color: gray;
+	background-color: #181718;
+	position: fixed;
+	bottom: 0;
+}
+h1{
+font-size: 5rem;
+}
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: purple;
+	text-decoration: underline;
+}
+
+input{
+	border: none;
+	background-color: #181718;
+	color: white;
+	text-align: right;
+	padding-right: 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 15px;
+	font-size: 1.3rem;
+}
